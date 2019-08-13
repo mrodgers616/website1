@@ -1,0 +1,38 @@
+html {
+    background: #ABAEBA;
+}
+
+.header {
+    padding: 10;
+    text-align: center;
+    background: #434E87;
+    color: white;
+    font-size: 10px;
+}
+
+.sidebar {
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+    float: left;
+}
+
+.body {
+    height: auto;
+    overflow: scroll;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}

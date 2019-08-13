@@ -1,0 +1,62 @@
+    body {
+        font-family: sans-serif;
+        background-image: url('feelsbadman.png');
+      }
+  	 p{
+    	margin:auto;
+    	text-align:center;
+    	float:right;
+    
+    }
+    #content2 p{
+    	clear:both;
+    }
+    #footer{
+    	margin:auto;
+    	text-align:center;
+    }
+      #container {
+        width: 90%;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+        text-shadow: 3px 3px #fff;
+        font-size: 300%;
+      }
+
+      .tab {
+        width: 150px;
+        height: 50px;
+        border: 1px solid grey;
+        text-align: center;
+        padding-top: 15px;
+        float: right;
+        box-sizing: border-box;
+        background-color: white;
+      }
+
+      .tab:hover {
+        background-color: #eee;
+      }
+
+      .active {
+        background-color: #ffdab9;
+      }
+
+      #tabs {
+        border-bottom: 1px solid grey;
+      }
+
+      .content {
+        padding: 15px;
+        margin:auto;
+        background-color: white;
+        min-height: 300px;
+        width:50%;
+      }
+
+      .hidden {
+        display: none;
+      }

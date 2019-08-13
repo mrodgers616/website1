@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <script type="text/javascript" src="assign4.js"></script>
+        <script> checkCookie(); </script>
+        <h1>Web Programming BlackJack</h1>
+        <form method="get"/>
+        
+        <h2>Card 1 is now <input name="card1" size=2 type=text>
+            <img src="cards/cardback.gif" name ="card1Pic" width=95 height=135>
+        </h2>
+
+        <h2>Card 2 is now <input name="card2" size=2 type=text>
+            <img src="cards/cardback.gif" name = "card2Pic" width=95 height=135>
+        </h2>
+
+
+        <h2>For a total of <input name="total" size=2 type=text> </h2>
+        
+        <h2>Indentical Pairs: <input name="identical" size=2 type=text> </h2>
+
+
+
+        <br>
+        <input type="button" name="play" value="Play" onClick="pickIt(); randomPic()" />
+        <input type="reset" name="cancel" value="Cancel" />
+        <input type="button" name="close" value="Close" onClick="closeWindow();" />
+        
+        
+    </body>
+</html>
